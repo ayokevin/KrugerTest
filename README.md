@@ -1,85 +1,42 @@
-# Getting Started with Create React App
+Este es un frontend realizado en React.js para la empresa Kruger.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Se encuentra un archivo db.json el cual funcionaba con json-sever para simular un backend.
 
-## Available Scripts
+Para el desarrollo se empezo con las historias de usuario del administrador la cuales estan terminada en su totalidad :
+1. Como Administrador requiere registrar, editar, listar y eliminar a los empleados.
+Criterios de aceptación:
+a. Registrar la siguiente información del empleado.
+○ Cédula.
+○ Nombres.
+○ Apellidos.
+○ Correo electrónico.
+b. Los campos deben contener validaciones de acuerdo al tipo de dato:
+○ Todos los campos son requeridos.
+○ Cédula válida. (Incluir un valor numérico y único de 10 dígitos)
+○ Correo electrónico válido.
+○ Nombres y apellidos no deben contener números o caracteres especiales.
+c. Al dar de alta un empleado se debe generar un usuario y contraseña para el empleado.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Como Administrador se requiere filtrar el listado de los empleados por los siguientes criterios.
+Criterios de aceptación:
+a. Filtrar por estado de vacunación.
+b. Filtrar por tipo de vacuna.
+c. Filtrar por rango de fecha de vacunación.
 
 
+Y de segundo se empezo a trabajar en el login para poder identificar al usuario
 
-react-bootstrap
-https://react-bootstrap.github.io/getting-started/introduction
+El frontende de la segunda historia de usuario se encuentras realizado pero no sus funcionalidades:
 
-
-react-router
-npm install react-router-dom@6
-
-https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
-
-npm install react-phone-number-input --save
-
-npm i --save react-select
+2. Como Empleado requiero ingresar al sistema para visualizar y actualizar mi información.
+Criterios de aceptación:
+a. Completar la siguiente información:
+● Fecha de nacimiento.
+● Dirección de domicilio.
+● Teléfono móvil.
+● Estado de vacunación: Vacunado / No Vacunado.
+● Si el empleado está en estado vacunado, se debe pedir la siguiente información
+requerida:
+○ Tipo de vacuna: Sputnik, AstraZeneca, Pfizer y Jhonson&Jhonson
+○ Fecha de vacunación.
+○ Número de dosis.
