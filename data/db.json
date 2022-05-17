@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 2011751265,
+      "firstName": "Kevin",
+      "lastName": "Santillan",
+      "phone": "0960543743",
+      "email": "ksantillan@hotmail.com",
+      "position": "Administrador",
+      "user": "1311751265",
+      "state": "Vacunado",
+      "type": "Pfizer",
+      "date": "20/05/2022",
+      "date_of_birth": "02/01/1994",
+      "address": "Valle de los chillos"
+    },
+    {
+      "id": "2111751265",
+      "firstName": "Fernando",
+      "lastName": "Chafuelan",
+      "user": "2111751265",
+      "email": "fchafuelan@hotmail.com",
+      "position": "Empleado",
+      "state": "Vacunado",
+      "type": "Pfizer",
+      "date": "18/05/2022",
+      "date_of_birth": "02/08/1994",
+      "address": "Ambato y duran",
+      "phone": "095136284",
+      "password": "12345"
+    },
+    {
+      "id": "1311751265",
+      "firstName": "Kevin Paul",
+      "lastName": "Santillan",
+      "user": "1311751265",
+      "email": "ayokevin@hotmail.com",
+      "position": "Administrador",
+      "state": "Vacunado",
+      "number_of_doses": "1",
+      "type": "AstraZeneca",
+      "date": "14/05/2022",
+      "date_of_birth": "04/08/1994",
+      "address": "Gonzalo gallo y Riobamba",
+      "phone": "0960543743",
+      "password": "12345"
+    },
+    {
+      "id": "1311751265555"
+    },
+    {
+      "id": "13117854698",
+      "firstName": "Pepito",
+      "lastName": "Ferez",
+      "phone": "+123123123123",
+      "email": "ayokevin@hotmail.com",
+      "position": "Administrador",
+      "user": "13117854698",
+      "state": "",
+      "number_of_doses": "",
+      "type": "",
+      "date": "",
+      "date_of_birth": "",
+      "address": "",
+      "password": "13117854698"
+    }
+  ]
+}
